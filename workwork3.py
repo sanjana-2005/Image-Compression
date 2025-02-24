@@ -108,7 +108,7 @@ if __name__ == "__main__":
     input_filename = r"C:\Users\shalu\Downloads\land.jpg"
     output_filename = r"C:\Users\shalu\Downloads\gray.jpeg"
 
-    # Compress the image
+    # Compress the image pass input file
     compress_image(input_filename, "compressed.bin")
 
     # Decompress the compressed data
